@@ -1,0 +1,25 @@
+{
+  "name": "obj-eql",
+  "version": "1.0.0",
+  "description": "Compare two objects for equality, with support for custom comparison functions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brentburg/obj-eql.git"
+  },
+  "author": "Brent Burgoyne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brentburg/obj-eql/issues"
+  },
+  "homepage": "https://github.com/brentburg/obj-eql",
+  "devDependencies": {
+    "immutable": "^3.6.2",
+    "mocha": "^2.1.0",
+    "should": "^5.0.1",
+    "sinon": "^1.12.2"
+  }
+}
