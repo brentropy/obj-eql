@@ -1,6 +1,6 @@
 {
   "name": "obj-eql",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Compare two objects for equality, with support for custom comparison functions.",
   "main": "index.js",
   "scripts": {
