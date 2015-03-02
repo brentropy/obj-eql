@@ -6,6 +6,7 @@
  * @param {Object} a
  * @param {Object} b
  * @return {Boolean}
+ * @api public
  */
 function objEql(compFn, a, b) {
   var keys, len, i
@@ -20,14 +21,13 @@ function objEql(compFn, a, b) {
     return true
   }
 
-  try {
-    keys = Object.keys(a)
-  }
-  catch (e) {
+  if (!(a instanceof Object && b instanceof Object)) {
     return false
   }
 
+  keys = Object.keys(a)
   len = keys.length
+
   if (len !== Object.keys(b).length) {
     return false
   }
